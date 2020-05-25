@@ -18,3 +18,11 @@ a:link, a:visited{
     height: 300px;
     background-color: aliceblue;;
 }
+/*main banner start*/
+.mainbanner01{
+    max-width: 1200px;
+    height: auto;
+}
+.mainbanner01 a img{
+    width: 100%;
+}
