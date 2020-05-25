@@ -15,14 +15,100 @@ a:link, a:visited{
 /*header start*/
 .title-box{
     width: 100%;
-    height: 300px;
+    height: 100px;
     background-color: aliceblue;;
 }
 /*main banner start*/
 .mainbanner01{
-    max-width: 1200px;
+    max-width: 1000px;
     height: auto;
+    margin: 0 auto;
 }
 .mainbanner01 a img{
     width: 100%;
+    margin-top: -6px;
+}
+/*おすすめ banner start*/
+.recommend-title{
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.recommend-title a img{
+    width: 100%;
+    margin-top: -6px;
+}
+#recom-area{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #37919d;
+}
+#recom-item{
+    position: relative;
+    width: 80%;
+    height: 600px;
+    margin: -6px auto 0;
+}
+.item-box{
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 3px solid #afadad;
+    margin: 0 1.7%;
+}
+.item-d{
+    width: 90%;
+    height: 90%;
+    margin: 5% auto;
+}
+.item-thumnail{
+    width: 324px;
+    height: 324px;
+    background-color: #dbdbdc;
+}
+.item-name{
+    color: #37919d;
+    font-weight: 600;
+    display: table;
+    width: 90%;
+    margin: 10px auto 0;
+}
+.item-info{
+    width: 90%;
+    margin: 0 auto;
+}
+.item-delivery{
+    display: inline-block;
+    width: 35%;
+    height: 50px;
+    background-color: #37919d;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    
+}
+.item-priceinfo{
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    top: 5px;
+    height: 50px;
+    color: #000;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: right;
+}
+.item-price{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 40%;
+    height: 80px;
+    color: #000;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: right;
 }
