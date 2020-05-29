@@ -80,27 +80,27 @@ a:link, a:visited{
 }
 .item-info{
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 .item-delivery{
     display: inline-block;
-    width: 35%;
-    height: 50px;
+    width: 30%;
     background-color: #37919d;
     border-radius: 30px;
+}
+.item-delivery > p{
     color: #fff;
     font-size: 2em;
     text-align: center;
-    
 }
 .item-priceinfo{
     display: inline-block;
     position: relative;
     width: 20%;
     top: 5px;
-    height: 50px;
     color: #000;
-    font-size: 1.3em;
+}
+.item-priceinfo > p{
     font-weight: 600;
     text-align: right;
 }
@@ -109,8 +109,9 @@ a:link, a:visited{
     position: relative;
     top: 5px;
     width: 40%;
-    height: 80px;
     color: #000;
+}
+.item-price > p{
     font-size: 2.5em;
     font-weight: 600;
     text-align: right;
